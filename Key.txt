@@ -1,1 +1,4 @@
-293938
+echo "NEW_KEY_VALUE" > Key.txt
+git add Key.txt
+git commit -m "Update key"
+git push origin main
